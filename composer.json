@@ -1,0 +1,24 @@
+{
+    "name": "shihab67/pandago",
+    "description": "A package for laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sayedur Rahman Shihab",
+            "email": "s.rahman3443@gmail.com"
+        }
+    ],
+    "require": {},
+     "extra": {
+        "laravel": {
+            "providers": [
+                "Shihab\\Pandago\\src\\PandagoServiceProvider"
+            ]
+        }
+    },
+     "autoload": {
+        "psr-4": {
+            "Shihab\\Pandago\\": "src/"
+        }
+    }
+}
